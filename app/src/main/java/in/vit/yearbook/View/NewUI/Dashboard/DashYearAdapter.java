@@ -19,8 +19,8 @@ public class DashYearAdapter extends RecyclerView.Adapter<DashYearAdapter.YearVi
     }
 
     private String[] years = {
-            "2017",
-            "2016",
+            "2016-2017",
+            "2015-2016",
             "2015",
             "2014"
     };

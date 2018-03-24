@@ -175,13 +175,13 @@
         android:layout_marginStart="16dp"
 
 
-        android:paddingStart="200dp"
-        android:paddingEnd="200dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
 
 
         android:orientation="horizontal"
-        android:clipChildren="false"
-        android:clipToPadding="false"
+        android:paddingEnd="200dp"
+        android:paddingStart="200dp"
 
         app:layout_constraintBottom_toBottomOf="@+id/view4"
         app:layout_constraintHorizontal_bias="0.0"

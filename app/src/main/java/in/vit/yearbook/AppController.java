@@ -18,11 +18,9 @@ public class AppController extends Application {
     public void onCreate() {
         super.onCreate();
         Fabric.with(this, new Crashlytics());
-
         this.appComponent = DaggerAppComponent.builder()
                 .sharedPrefModule(new SharedPrefModule(this))
                 .build();
-
         FontsOverride.setDefaultFont(this, "MONOSPACE", "fonts/VarelaRound-Regular.ttf");
     }
 
