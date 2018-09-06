@@ -140,12 +140,15 @@ public class TeamFragment extends BaseFragment implements View.OnClickListener {
             case 1:
                 currentYear = 2016 ;
                 break;
+            /*
             case 2:
                 currentYear = 2015 ;
                 break;
             case 3:
                 currentYear = 2014 ;
                 break;
+                */
+
         }
         updateEditorialTeam(currentYear);
     }
@@ -184,12 +187,14 @@ public class TeamFragment extends BaseFragment implements View.OnClickListener {
             case 2016:
                 teamMembersList = Arrays.asList(getResources().getStringArray(R.array.yb2016_team_editorial)) ;
                 break;
+            /*
             case 2015:
                 teamMembersList = Arrays.asList(getResources().getStringArray(R.array.yb2017_team_editorial)) ;
                 break;
             case 2014:
                 teamMembersList = Arrays.asList(getResources().getStringArray(R.array.yb2017_team_editorial)) ;
                 break;
+                */
         }
         teamMembersAdapter.updateArrayList(teamMembersList);
         teamMembersAdapter.notifyDataSetChanged();
@@ -206,12 +211,14 @@ public class TeamFragment extends BaseFragment implements View.OnClickListener {
             case 2016:
                 teamMembersList = Arrays.asList(getResources().getStringArray(R.array.yb2016_team_design)) ;
                 break;
+            /*
             case 2015:
                 teamMembersList = Arrays.asList(getResources().getStringArray(R.array.yb2017_team_editorial)) ;
                 break;
             case 2014:
                 teamMembersList = Arrays.asList(getResources().getStringArray(R.array.yb2017_team_editorial)) ;
                 break;
+                */
         }
         teamMembersAdapter.updateArrayList(teamMembersList);
         teamMembersAdapter.notifyDataSetChanged();
@@ -228,12 +235,14 @@ public class TeamFragment extends BaseFragment implements View.OnClickListener {
             case 2016:
                 teamMembersList = Arrays.asList(getResources().getStringArray(R.array.yb2016_team_photography)) ;
                 break;
+            /*
             case 2015:
                 teamMembersList = Arrays.asList(getResources().getStringArray(R.array.yb2017_team_editorial)) ;
                 break;
             case 2014:
                 teamMembersList = Arrays.asList(getResources().getStringArray(R.array.yb2017_team_editorial)) ;
                 break;
+                */
         }
         teamMembersAdapter.updateArrayList(teamMembersList);
         teamMembersAdapter.notifyDataSetChanged();

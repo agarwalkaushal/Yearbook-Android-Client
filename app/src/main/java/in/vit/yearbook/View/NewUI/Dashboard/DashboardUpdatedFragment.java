@@ -137,12 +137,14 @@ public class DashboardUpdatedFragment extends BaseFragment implements View.OnCli
             case 1: ivCoverPhoto.setImageDrawable(getResources().getDrawable(R.drawable.yb2016_cover));
                 currentYear = Integer.parseInt("2016") ;
                 break;
+            /*
             case 2: ivCoverPhoto.setImageDrawable(getResources().getDrawable(R.drawable.yb2016_cover));
                 currentYear = Integer.parseInt("2015") ;
                 break;
             case 3: ivCoverPhoto.setImageDrawable(getResources().getDrawable(R.drawable.yb2016_cover));
                 currentYear = Integer.parseInt("2014") ;
                 break;
+                */
         }
     }
 
@@ -243,10 +245,12 @@ public class DashboardUpdatedFragment extends BaseFragment implements View.OnCli
                 break;
             case 2016:morphingBtnDownload.setText("Download 42MB");
                 break;
+            /*
             case 2015:morphingBtnDownload.setText("Download 2MB");
                 break;
             case 2014:morphingBtnDownload.setText("Download 6MB");
                 break;
+                */
         }
     }
 

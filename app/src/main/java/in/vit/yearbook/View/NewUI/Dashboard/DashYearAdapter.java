@@ -20,9 +20,7 @@ public class DashYearAdapter extends RecyclerView.Adapter<DashYearAdapter.YearVi
 
     private String[] years = {
             "2016-2017",
-            "2015-2016",
-            "2015-2014",
-            "2014"
+            "2015-2016"
     };
 
     public interface OnItemClickListener{
@@ -38,13 +36,13 @@ public class DashYearAdapter extends RecyclerView.Adapter<DashYearAdapter.YearVi
 
     @Override
     public void onBindViewHolder(YearViewHolder holder, int position) {
-        holder.tvYear.setText(years[position%4]);
+        holder.tvYear.setText(years[position%2]);
         holder.bindListener(position);
     }
 
     @Override
     public int getItemCount() {
-        return 4;
+        return 2;
     }
 
     public class YearViewHolder extends RecyclerView.ViewHolder{
