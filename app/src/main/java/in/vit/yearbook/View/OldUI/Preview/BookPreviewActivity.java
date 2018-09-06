@@ -47,6 +47,7 @@ public class BookPreviewActivity extends BaseActivity{
     public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
         pdfView.fitToWidth();
+
     }
 
     private void setInit() {
